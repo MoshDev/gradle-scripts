@@ -1,0 +1,16 @@
+repositories {
+    google()
+}
+
+dependencies {
+  def work_version = "2.3.0-alpha01"
+
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+
+    // optional - GCMNetworkManager support
+    implementation "androidx.work:work-gcm:$work_version"
+
+    // optional - Test helpers
+    androidTestImplementation "androidx.work:work-testing:$work_version"
+  }

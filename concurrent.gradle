@@ -1,0 +1,8 @@
+repositories {
+    google()
+}
+
+dependencies {
+    def futures_version = "1.0.0-rc01"
+    implementation "androidx.concurrent:concurrent-futures:$futures_version"
+}
