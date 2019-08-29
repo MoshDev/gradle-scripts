@@ -18,5 +18,5 @@ dependencies {
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
     // optional - Test helpers for LiveData
-    testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
+    // testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
 }
