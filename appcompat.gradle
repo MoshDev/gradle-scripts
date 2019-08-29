@@ -1,0 +1,12 @@
+repositories {
+    google()
+}
+
+dependencies {
+    def appcompatVersion = "1.0.2"
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation "androidx.core:core-ktx:$appcompatVersion"
+    implementation "androidx.vectordrawable:vectordrawable:$appcompatVersion"
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}
