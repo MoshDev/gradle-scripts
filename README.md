@@ -31,3 +31,8 @@ buildscript {
     }
 }
 ```
+
+# Proguard
+ ```
+ proguardFiles fileTree('../proguard').asList().toArray()
+ ```
